@@ -7,3 +7,6 @@ parameters:
     tasks:
         phplint:
             triggered_by: ['php', 'inc', 'phtml', 'html']
+        phpcs:
+            triggered_by: ['php', 'inc', 'phtml', 'html']
+            standard: "phpcs.xml"
