@@ -49,7 +49,7 @@ All endpoint need to be documented
 Use state less developpement prepared to load balancing. Installation via Phing (read [https://github.com/flash-global/phing-service](https://github.com/flash-global/phing-service)) vendor/bin/phing -f phing.xml local-setup-system
 
 ## Infra
-![](https://github.com/flash-global/it-public-documentation/raw/master/img/git/infra%20architecture.png)
+![](https://github.com/flash-global/it-public-documentation/raw/master/img/infra%20architecture.png)
 ## Services independent
 
 We have a partnership with [Yoctu](https://www.yoctu.com/) we use [their services](https://www.yoctu.com/services/)
