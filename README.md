@@ -48,6 +48,19 @@ All endpoint need to be documented
 
 Use state less developpement prepared to load balancing. Installation via Phing (read [https://github.com/flash-global/phing-service](https://github.com/flash-global/phing-service)) vendor/bin/phing -f phing.xml local-setup-system
 
+### Git dependancies
+
+Use vcs link to composer.json
+
+```
+"repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/flash-global/my-lib"
+    }
+  ]
+```
+
 ## Infra
 ![](https://github.com/flash-global/it-public-documentation/raw/master/img/infra%20architecture.png)
 ## Services independent
