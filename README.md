@@ -56,7 +56,8 @@ Use vcs link to composer.json
 "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/flash-global/my-lib"
+      "url": "git@github.com:flash-global/my-lib.git",
+      "no-api": true
     }
   ]
 ```
