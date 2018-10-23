@@ -10,3 +10,11 @@ parameters:
         phpcs:
             triggered_by: ['php', 'inc', 'phtml', 'html']
             standard: "phpcs.xml"
+        composer:
+          file: ./composer.json
+          no_check_all: true
+          no_check_lock: true
+          no_check_publish: true
+          no_local_repository: true
+          with_dependencies: true
+          strict: false
